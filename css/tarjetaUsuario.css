@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.contenedor{
+    width: 695px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 25px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.rectanguloCeleste {
+    width: 695px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.contenidoUsuario {
+    padding: 40px;
+    position: relative;
+    top: -130px;
+    left: 10px;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+}
+
+.infoUsuario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
